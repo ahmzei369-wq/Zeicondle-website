@@ -1,0 +1,79 @@
+
+backend:
+  name: turbo-github
+  turbo_site_id: 02b08686-2937-4470-a9ce-bebf9cfcf251
+  branch: main
+
+media_folder: "images/uploads"
+public_folder: "/images/uploads"
+
+locale: "de"
+
+collections:
+  - name: "products"
+    label: "Kerzen"
+    files:
+      - name: "catalog"
+        label: "Produktkatalog"
+        file: "data/products.json"
+        format: "json"
+        fields:
+          - label: "Produkte"
+            name: "products"
+            widget: "list"
+            summary: "{{fields.name}} – {{fields.price}} €"
+            fields:
+              - label: "Produkt-ID"
+                name: "id"
+                widget: "number"
+                value_type: "int"
+
+              - label: "Name"
+                name: "name"
+                widget: "string"
+
+              - label: "Preis in Euro"
+                name: "price"
+                widget: "number"
+                value_type: "float"
+                min: 0
+
+              - label: "Kategorie"
+                name: "category"
+                widget: "select"
+                options:
+                  - label: "Blumig"
+                    value: "floral"
+                  - label: "Süß"
+                    value: "sweet"
+                  - label: "Frisch"
+                    value: "fresh"
+                  - label: "Saisonal"
+                    value: "seasonal"
+
+              - label: "Kennzeichnung"
+                name: "tag"
+                widget: "string"
+                required: false
+
+              - label: "Beschreibung"
+                name: "description"
+                widget: "text"
+
+              - label: "Farben"
+                name: "colors"
+                widget: "list"
+                field:
+                  label: "Farbcode"
+                  name: "color"
+                  widget: "string"
+
+              - label: "Blumen- oder Duftmotiv"
+                name: "flower"
+                widget: "string"
+                required: false
+
+              - label: "Produktbild"
+                name: "image"
+                widget: "image"
+                required: false
