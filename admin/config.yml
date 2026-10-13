@@ -27,17 +27,14 @@ collections:
                 name: "id"
                 widget: "number"
                 value_type: "int"
-
               - label: "Name"
                 name: "name"
                 widget: "string"
-
               - label: "Preis in Euro"
                 name: "price"
                 widget: "number"
                 value_type: "float"
                 min: 0
-
               - label: "Kategorie"
                 name: "category"
                 widget: "select"
@@ -50,16 +47,13 @@ collections:
                     value: "fresh"
                   - label: "Saisonal"
                     value: "seasonal"
-
               - label: "Kennzeichnung"
                 name: "tag"
                 widget: "string"
                 required: false
-
               - label: "Beschreibung"
                 name: "description"
                 widget: "text"
-
               - label: "Farben"
                 name: "colors"
                 widget: "list"
@@ -67,12 +61,10 @@ collections:
                   label: "Farbcode"
                   name: "color"
                   widget: "string"
-
               - label: "Blumen- oder Duftmotiv"
                 name: "flower"
                 widget: "string"
                 required: false
-
               - label: "Produktbild"
                 name: "image"
                 widget: "image"
