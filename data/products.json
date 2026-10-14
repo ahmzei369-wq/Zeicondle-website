@@ -13,48 +13,6 @@
       "flower": "rose",
       "description": "Eine zarte, romantische Duftkerze mit Rose und Vanille.",
       "category": "floral"
-    },
-    {
-      "price": 16.9,
-      "name": "Lavender Dreams",
-      "colors": [
-        "#C9B6E4",
-        "#E7DDF5"
-      ],
-      "tag": "",
-      "id": 2,
-      "image": "",
-      "flower": "lavender",
-      "description": "Ein entspannender Duft, inspiriert von Lavendel.",
-      "category": "fresh"
-    },
-    {
-      "price": 15.9,
-      "name": "Berry Love",
-      "colors": [
-        "#D96C91",
-        "#F4B8CB"
-      ],
-      "tag": "Neu",
-      "id": 3,
-      "image": "",
-      "flower": "berry",
-      "description": "Ein süßer, fruchtiger Duft für gemütliche Momente.",
-      "category": "sweet"
-    },
-    {
-      "price": 18.9,
-      "name": "Winter Magic",
-      "colors": [
-        "#C5D8C5",
-        "#E2EBDD"
-      ],
-      "tag": "Saisonal",
-      "id": 4,
-      "image": "",
-      "flower": "winter",
-      "description": "Ein warmer Duft für die kalte Jahreszeit.",
-      "category": "seasonal"
     }
   ]
 }
