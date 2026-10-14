@@ -1,48 +1,60 @@
 {
   "products": [
     {
-      "id": 1,
-      "name": "Rose & Vanilla",
       "price": 14.9,
-      "category": "floral",
+      "name": "Rose & Vanilla",
+      "colors": [
+        "#F2B8C6",
+        "#F8DCE3"
+      ],
       "tag": "Bestseller",
-      "description": "Eine zarte, romantische Duftkerze mit Rose und Vanille.",
-      "colors": ["#F2B8C6", "#F8DCE3"],
+      "id": 1,
+      "image": "/images/uploads/27180.jpg",
       "flower": "rose",
-      "image": ""
+      "description": "Eine zarte, romantische Duftkerze mit Rose und Vanille.",
+      "category": "floral"
     },
     {
-      "id": 2,
-      "name": "Lavender Dreams",
       "price": 16.9,
-      "category": "fresh",
+      "name": "Lavender Dreams",
+      "colors": [
+        "#C9B6E4",
+        "#E7DDF5"
+      ],
       "tag": "",
-      "description": "Ein entspannender Duft, inspiriert von Lavendel.",
-      "colors": ["#C9B6E4", "#E7DDF5"],
+      "id": 2,
+      "image": "",
       "flower": "lavender",
-      "image": ""
+      "description": "Ein entspannender Duft, inspiriert von Lavendel.",
+      "category": "fresh"
     },
     {
-      "id": 3,
-      "name": "Berry Love",
       "price": 15.9,
-      "category": "sweet",
+      "name": "Berry Love",
+      "colors": [
+        "#D96C91",
+        "#F4B8CB"
+      ],
       "tag": "Neu",
-      "description": "Ein süßer, fruchtiger Duft für gemütliche Momente.",
-      "colors": ["#D96C91", "#F4B8CB"],
+      "id": 3,
+      "image": "",
       "flower": "berry",
-      "image": ""
+      "description": "Ein süßer, fruchtiger Duft für gemütliche Momente.",
+      "category": "sweet"
     },
     {
-      "id": 4,
-      "name": "Winter Magic",
       "price": 18.9,
-      "category": "seasonal",
+      "name": "Winter Magic",
+      "colors": [
+        "#C5D8C5",
+        "#E2EBDD"
+      ],
       "tag": "Saisonal",
-      "description": "Ein warmer Duft für die kalte Jahreszeit.",
-      "colors": ["#C5D8C5", "#E2EBDD"],
+      "id": 4,
+      "image": "",
       "flower": "winter",
-      "image": ""
+      "description": "Ein warmer Duft für die kalte Jahreszeit.",
+      "category": "seasonal"
     }
   ]
 }
